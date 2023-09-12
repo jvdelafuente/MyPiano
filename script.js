@@ -24,7 +24,7 @@ pianoKeys.forEach((t) => {
   t.addEventListener("click", () => playTune(t.dataset.key));
 });
 
-// Convierte el input type="range" en un volumen.
+// Convierte el input type="range" en un volumen123123.
 const handleVolumen = (e) => {
   audio.volume = e.target.value;
 };
