@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Piano</title>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h2>MyPiano</h2>
+        <div class="columna slider-volumen">
+          <span>Volumen</span
+          ><input type="range" min="0" max="1" value="0.5" step="any" />
+        </div>
+        <div class="columna show-teclado">
+          <span>Teclas</span><input type="checkbox" checked />
+        </div>
+      </header>
+      <ul class="teclas-piano">
+        <li class="t blanca" data-key="a"><span>a</span></li>
+        <li class="t negra" data-key="w"><span>w</span></li>
+        <li class="t blanca" data-key="s"><span>s</span></li>
+        <li class="t negra" data-key="e"><span>e</span></li>
+        <li class="t blanca" data-key="d"><span>d</span></li>
+        <li class="t blanca" data-key="f"><span>f</span></li>
+        <li class="t negra" data-key="t"><span>t</span></li>
+        <li class="t blanca" data-key="g"><span>g</span></li>
+        <li class="t negra" data-key="y"><span>y</span></li>
+        <li class="t blanca" data-key="h"><span>h</span></li>
+        <li class="t negra" data-key="u"><span>u</span></li>
+        <li class="t blanca" data-key="j"><span>j</span></li>
+        <li class="t blanca" data-key="k"><span>k</span></li>
+        <li class="t negra" data-key="o"><span>o</span></li>
+        <li class="t blanca" data-key="l"><span>l</span></li>
+        <li class="t negra" data-key="p"><span>p</span></li>
+        <li class="t blanca" data-key="ñ"><span>ñ</span></li>
+      </ul>
+    </div>
+  </body>
+</html>
